@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/borad/borad",
+   "pages/show/show",
+    "pages/find/find",
+    "pages/profile/profile",
+    "pages/logs/logs",
+    "pages/append/append"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/borad/borad",
+        "text": "首页",
+        "iconPath": "/images/ycy/home.png",
+        "selectedIconPath": "/images/ycy/home.png"
+      },
+      {
+        "pagePath": "pages/show/show",
+        "text": "记录",
+        "iconPath": "/images/ycy/show.png",
+        "selectedIconPath": "/images/ycy/show.png"
+      },
+    
+      {
+        "pagePath": "pages/find/find",
+        "text": "查询",
+        "iconPath": "/images/ycy/category.png",
+        "selectedIconPath": "/images/ycy/category.png"
+      },
+      
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "/images/ycy/profile.png",
+        "selectedIconPath": "/images/ycy/profile.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

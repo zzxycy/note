@@ -1,0 +1,28 @@
+<!--pages/borad/borad.wxml-->
+<view class='borad'>
+<view>
+<swiper indicator-dots="true"
+  autoplay="true" interval="3000" duration="3000" class='swiper'>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+
+<view class='view1'>
+<text class='text1'>记事本</text>
+</view>
+
+<view class='view2'>
+<navigator url='../append/append'>
+<view class='view3'>
+<text>新建记事</text>
+<text decode='true'>&gt;</text>
+</view>
+</navigator>
+</view>
+</view>
+
+

@@ -1,0 +1,6 @@
+/* pages/append/append.wxss */
+@import '../../style/weui.wxss';
+.v1{
+  margin-top: 100rpx;
+  
+}

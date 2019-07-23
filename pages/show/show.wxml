@@ -1,0 +1,18 @@
+<view class='list-head'>日记列表</view>
+<view class='list-box'>
+    <view class='list-li mflex'  wx:for="{{list_data}}"  wx:key="index" >       
+        <view  class='list-tit'><text>标题：{{item.title}}</text></view>    
+        
+        <view class='list-adr'><text>内容{{item.text}}</text></view>
+         <view class='title'>
+          <image id='{{index}}' class='listtopimage' src='../../images/ycy/delete.png' bindtap='delete' ></image>
+         
+
+        </view>
+
+        <view class='list-tag'>
+            <text class='tag_{{index}}' wx:for="{{item.tag}}" wx:for-item="cell" wx:key="index" >{{cell.tags}}</text>
+        </view>          
+    </view>
+    
+</view>
